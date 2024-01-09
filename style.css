@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #EDF2F9;
+}
+section{
+    background-color: #ECF0F3;
+    width:100%;
+    min-height: 100vh;
+}
+section .col-3 .changeHomeWork{
+    border:1px solid black;
+    border-radius: 10px;
+}
+section .col-3 .changeHomeWork div{
+    margin:10px;
+}
+section .col-3 .changeHomeWork button:hover{
+    color:#106CF6;
+}
+section .col-3 .changeHomeWork button{
+    padding:5px 50px;
+    border-radius: 10px;
+    transition: all 0.3 ease;
+}
+section .col-9 .output_HomeWork{
+    margin-top: 10px;
+}
+
