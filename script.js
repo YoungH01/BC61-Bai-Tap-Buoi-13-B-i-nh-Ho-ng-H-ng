@@ -16,7 +16,7 @@ var ans=0;
 function bai1(){
     homeWorkBai1.style.backgroundColor="#106CF6";
     homeWorkBai1.style.color="#fff";
-    // reset button homeWork
+    // reset
     homeWorkBai2.style.backgroundColor="transparent";
     homeWorkBai2.style.color="black";
     homeWorkBai3.style.backgroundColor="transparent";
@@ -25,7 +25,13 @@ function bai1(){
     homeWorkBai4.style.color="black";
     homeWorkBai5.style.backgroundColor="transparent";
     homeWorkBai5.style.color="black";
+    input1.value="";
+    input2.value="";
+    input3.value="";
+    input4.value="";
+    input5.value="";
     check=1;
+    result.innerHTML="";
     // process
     title.innerHTML="Tính tiền lương nhân viên";
     input1.setAttribute("placeholder","Nhập lương 1 ngày làm");
@@ -48,6 +54,12 @@ function bai2(){
     homeWorkBai4.style.color="black";
     homeWorkBai5.style.backgroundColor="transparent";
     homeWorkBai5.style.color="black";
+    input1.value="";
+    input2.value="";
+    input3.value="";
+    input4.value="";
+    input5.value="";
+    result.innerHTML="";
     // process
     title.innerHTML="Tính giá trị trung bình";
     input2.style.visibility="visible";
@@ -62,7 +74,7 @@ function bai3(){
     homeWorkBai3.style.backgroundColor="#106CF6";
     homeWorkBai3.style.color="#fff";
     check=3;
-    // reset button homeWork
+    // reset
     homeWorkBai2.style.backgroundColor="transparent";
     homeWorkBai2.style.color="black";
     homeWorkBai1.style.backgroundColor="transparent";
@@ -71,6 +83,13 @@ function bai3(){
     homeWorkBai4.style.color="black";
     homeWorkBai5.style.backgroundColor="transparent";
     homeWorkBai5.style.color="black";
+    input1.value="";
+    input2.value="";
+    input3.value="";
+    input4.value="";
+    input5.value="";
+    result.innerHTML="";
+
     // process
     title.innerHTML="Quy đổi tiền";
     input2.style.visibility="hidden";
@@ -94,6 +113,13 @@ function bai4(){
     homeWorkBai1.style.color="black";
     homeWorkBai5.style.backgroundColor="transparent";
     homeWorkBai5.style.color="black";
+    input1.value="";
+    input2.value="";
+    input3.value="";
+    input4.value="";
+    input5.value="";
+    result.innerHTML="";
+
     // process
     title.innerHTML="Tính diện tích, chu vi hình chữ nhật";
     input2.style.visibility="visible";
@@ -117,6 +143,13 @@ function bai5(){
     homeWorkBai4.style.color="black";
     homeWorkBai1.style.backgroundColor="transparent";
     homeWorkBai1.style.color="black";
+    input1.value="";
+    input2.value="";
+    input3.value="";
+    input4.value="";
+    input5.value="";
+    result.innerHTML="";
+
     // process
     title.innerHTML="Tính tổng hai ký số";
     input2.style.visibility="hidden";

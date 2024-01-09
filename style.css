@@ -11,8 +11,11 @@ section{
     min-height: 100vh;
 }
 section .col-3 .changeHomeWork{
-    border:1px solid black;
-    border-radius: 10px;
+    /* border:1px solid black; */
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #889197;
+    padding: 10px 0;
+     text-align: center;
 }
 section .col-3 .changeHomeWork div{
     margin:10px;
@@ -25,13 +28,17 @@ section .col-3 .changeHomeWork button{
     border-radius: 10px;
     transition: all 0.3 ease;
 }
+
 section .col-9 .output_HomeWork{
     margin-top: 10px;
 }
 input{
-    padding:2px;
+    width:25%;
+    padding:2px 5px;
     border-radius:8px;
+    margin:0 10px 10px 0;
 }
+
 #bai1{
     background-color: #106CF6;
     color:#fff;
@@ -49,10 +56,14 @@ input{
     background-color: #106CF6 !important;
     border-radius: 10px;
 }
-#result{
+.placeAns,#result{
     margin-top: 10px;
     background-color: #D1E7DD;
     padding:10px;
     border-radius: 10px;
+}
+#result{
+    margin-top: 5px;
+    padding:5px;
 }
 
