@@ -169,6 +169,7 @@ function calculateAns(){
     }
     if(check==3){
         ans=Number(input1.value)*23500;
+        ans= new Intl.NumberFormat('vn-VN').format(ans);
     }
     if(check==4){
         var s=Number(input1.value)*Number(input2.value);
