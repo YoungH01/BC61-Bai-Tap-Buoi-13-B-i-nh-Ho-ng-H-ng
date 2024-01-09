@@ -18,27 +18,27 @@
                 <div class="col-3">
                     <div class="changeHomeWork">
                         <div class="">
-                            <button onclick="bai1()" id="demo" id="bai1">
+                            <button onclick="bai1()" id="bai1">
                                 Bài 1
                             </button>
                         </div>
                         <div class="">
-                            <button onclick="Bai2()" id="demo" id="bai2">
+                            <button onclick="bai2()" id="bai2">
                                 Bai 2
                             </button>
                         </div>
                         <div class="">
-                            <button onclick="Bai3()" id="demo" id="bai3">
+                            <button onclick="bai3()" id="bai3">
                                 Bai 3
                             </button>
                         </div>
                         <div class="">
-                            <button onclick="Bai4()" id="demo" id="bai4">
+                            <button onclick="bai4()" id="bai4">
                                 Bai 4
                             </button>
                         </div>
                         <div class="">
-                            <button onclick="Bai5()" id="demo" id="bai5">
+                            <button onclick="bai5()" id="bai5">
                                 Bai 5
                             </button>
                         </div>
@@ -46,17 +46,20 @@
                 </div>
                 <div class="col-9">
                     <div class="content_homework">
-                        <h1 class="title-Homework" id="title">
+                        <h1 class="title-Homework mb-4" id="title">
                             Tính tiền lương nhân viên
                         </h1>
                         <div class="caculate_HomeWork">
                             <div class="input_HomeWork">
-                                <input type="number" placeholder="Nhập lương 1 ngày làm">
-                                <input type="number" placeholder="Số ngày làm">
+                                <input type="number" id="input1" placeholder="Nhập lương 1 ngày làm">
+                                <input type="number" id="input2" placeholder="Số ngày làm">
+                                <input type="number" id="input3" placeholder="Nhập số thứ 3">
+                                <input type="number" id="input4" placeholder="Nhập số thứ 4">
+                                <input type="number" id="input5" placeholder="Nhập số thứ 5">
                             </div>
                             <div class="mt-4">
-                                <button class="">Tính lương</button>
-                                <div>100$</div>
+                                <button onClick="calculateAns()" class="btn text-light" id="ans">Tính lương</button>
+                                <div id="result"></div>
                             </div>
                         </div>
                     </div>

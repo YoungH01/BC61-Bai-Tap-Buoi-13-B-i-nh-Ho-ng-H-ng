@@ -5,6 +5,7 @@
     background-color: #EDF2F9;
 }
 section{
+    margin-top: 30px;
     background-color: #ECF0F3;
     width:100%;
     min-height: 100vh;
@@ -26,5 +27,32 @@ section .col-3 .changeHomeWork button{
 }
 section .col-9 .output_HomeWork{
     margin-top: 10px;
+}
+input{
+    padding:2px;
+    border-radius:8px;
+}
+#bai1{
+    background-color: #106CF6;
+    color:#fff;
+}
+#input3{
+    visibility: hidden;
+}
+#input4{
+    visibility: hidden;
+}
+#input5{
+    visibility: hidden;
+}
+.btn{
+    background-color: #106CF6 !important;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 10px;
+    background-color: #D1E7DD;
+    padding:10px;
+    border-radius: 10px;
 }
 
