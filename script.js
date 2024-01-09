@@ -181,7 +181,7 @@ function calculateAns(){
         var number=0;
         while(number1>0){
             number+=number1%10;
-            number1=parseInt(number1/10);
+            number1= parseInt(number1/10);
         }
         ans=number;
     }
